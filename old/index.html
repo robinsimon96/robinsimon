@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo|Rubik+Mono+One" rel="stylesheet">
+    </head>
+    <body>
+        <div id="home">
+        </div>
+
+        <nav class="clearfix">
+            <ul>
+                <li><a href=#home>HOME</a></li>
+                <li><a href=#about>ABOUT</a></li>
+                <li><a href=#work>WORK</a></li>
+                <li><a href=#contact>CONTACT</a></li>
+                <li><a href=#social>SOCIAL</a></li>
+            </ul>
+        </nav>
+
+        <div id="about">
+            <div id="about-content">
+            <h1>YO.</h1>
+                <p>I’m Robin Simon, a senior at the University of Connecticut majoring in Digital Media and Design. I concentrate in 3D animation but have experience in everything from motion graphics to projection mapping. I want to use my skills to create content that exceeds client expectations. My educational and work experience have trained me to live outside my comfort zone. I thrive in an atmosphere where I am challenged to go beyond my current skill set. With every project comes a different approach, a different program to learn, a new platform. These changes excite me instead of intimidate, and allow me to learn how to be adaptable.
+                <br>
+                <br>
+                One of my unrelated talents is clapping very loudly. Like I can clap really loud, I am the ideal audience member.</p>
+
+                <img src="img/me.jpg">
+            </div>
+        </div>
+
+        <div id="work" class="clearfix">
+            <div class="content">
+                <h1>Who wants to see some work?</h1>
+                <div id="reel">
+                    <iframe src="https://player.vimeo.com/video/237904545?title=0&byline=0&portrait=0" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            <h2>Case Studies</h2>
+            <div class="case-studies">
+                <div class="case-studies-title">
+                    <h2>Title</h2>
+                </div>
+            </div>
+            <div class="case-studies">
+                <div class="case-studies-title">
+                    <h2>Title</h2>
+                </div>
+            </div>
+            <div class="case-studies">
+                <div class="case-studies-title">
+                    <h2>Title</h2>
+                </div>
+            </div>
+            <div class="case-studies">
+                <div class="case-studies-title">
+                    <h2>Title</h2>
+                </div>
+            </div>
+            <div class="case-studies">
+                <div class="case-studies-title">
+                    <h2>Title</h2>
+                </div>
+            </div>
+            <div class="case-studies">
+                <div class="case-studies-title">
+                    <h2>Title</h2>
+                </div>
+            </div>
+        </div>
+
+        <footer class="clearfix">
+            <div class="col">
+                <h3>Contact Me</h3>
+                <p>Robin Simon</p>
+                <p>robmsimon@gmail.com</p>
+                <p><a href="https://vimeo.com/user48200545">My vimeo channel</a></p>
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <img src="img/ig.png">
+                <img src="img/tw.png">
+                <img src="img/lk.png">
+                <img src="img/pi.png">
+            </div>
+        </div>
+
+        </footer>
+        <script type="text/javascript">
+            $('case-studies').each(function () {
+                var y = $(document).scrollTop();
+                var t = $(this).parent().offset().top;
+                if (y > t) {
+                    $(this).fadeIn();
+                }
+            });
+        </script>
+    </body>
+</html>
+        

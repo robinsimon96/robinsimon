@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Robin Simon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css?family=Exo|Rubik+Mono+One" rel="stylesheet">
+    </head>
+    <body>
+        <div id="home" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        </div>
+
+        <nav class="clearfix">
+            <ul>
+                <li class="col-xs-3 col-md-1 col-md-push-8"><a href=#home>HOME</a></li>
+                <li class="col-xs-3 col-md-1 col-md-push-8"><a href=#about>ABOUT</a></li>
+                <li class="col-xs-3 col-md-1 col-md-push-8"><a href=#work>WORK</a></li>
+                <li class="col-xs-3 col-md-1 col-md-push-8"><a href=#contact>CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div id="about">
+            <div id="about-content" class="col-xs-12">
+            <h1 data-aos="fade-up">YO.</h1>
+                <p data-aos="fade-up" class="col-xs-12 col-md-12 col-lg-6">I’m Robin Simon, a senior at the University of Connecticut majoring in Digital Media and Design. I concentrate in 3D animation but have experience in everything from motion graphics to projection mapping. I want to use my skills to create content that exceeds client expectations. My educational and work experience have trained me to live outside my comfort zone. I thrive in an atmosphere where I am challenged to go beyond my current skill set. With every project comes a different approach, a different program to learn, a new platform. These changes excite me instead of intimidate, and allow me to learn how to be adaptable.
+                <br>
+                <br>
+                One of my unrelated talents is clapping very loudly. Like I can clap really loud, I am the ideal audience member.</p>
+                <div class="about-img col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <img src="img/me.jpg" data-aos="zoom-in-left" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                </div>
+            </div>
+        </div>
+
+        <div id="work" class="clearfix col-xs-12">
+            <div class="content">
+                <h1>Who wants to see some work?</h1>
+                <div id="reel" class="intrinsic-container intrinsic-container-16x9">
+                    <iframe src="https://player.vimeo.com/video/237904545?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="col-lg-12"></iframe>
+                </div>
+            <h1 id="case-studies">Case Studies</h1>
+            <h3>Click around, you know you want to...</h3>
+            <a href="jib-study.html"><div class="case-studies jib col-xs-6 col-md-4" data-aos="zoom-in">
+            </div></a>
+            <a href="delmar-study.html"><div class="case-studies delmar col-xs-6 col-md-4" data-aos="zoom-in">
+            </div></a>
+            <a href="stella-study.html"><div class="case-studies stella col-xs-6 col-md-4" data-aos="zoom-in">
+            </div></a>
+            <a href="bch-study.html"><div class="case-studies bch col-xs-6 col-md-4" data-aos="zoom-in">
+            </div></a>
+            <a href="mlr-study.html"><div class="case-studies mlr col-xs-6 col-md-4" data-aos="zoom-in">
+            </div></a>
+            <a href="character-study.html"><div class="case-studies character col-xs-6 col-md-4" data-aos="zoom-in">
+            </div></a>
+            <div class="case-studies motion col-xs-6 col-md-4" data-aos="zoom-in">
+            </div>
+        </div>
+
+        <div id="contact" class="col-xs-12 clearfix">
+            <h1>Let's get in touch</h1>
+            <a href="img/resume.pdf"><h3>Download my resume</h3></a>
+            <form>
+                <input class="col-lg-4" type="name" placeholder="YOUR NAME">
+                <input class="col-lg-4 clearfix" type="email" placeholder="EMAIL">
+            </form>
+        </div>
+    </div>
+
+        <footer class="clearfix">
+            <div class="col-xs-6 col-md-2" data-aos="fade-up">
+                <h3>Contact Me</h3>
+                <p>Robin Simon</p>
+                <p>robmsimon@gmail.com</p>
+                <p><a href="https://vimeo.com/user48200545">My vimeo channel</a></p>
+            </div>
+            <div class="col-xs-6 col-md-2" data-aos="fade-up">
+                <h3>Social Media</h3>
+                <img src="img/ig.png">
+                <img src="img/tw.png">
+                <img src="img/lk.png">
+                <img src="img/pi.png">
+            </div>
+        </footer>
+
+    <script src="dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+                $(".contactLink").click(function(){
+                    if ($("#contactForm").is(":hidden")){
+                        $("#contactForm").slideDown("slow");
+                    }
+                    else{
+                        $("#contactForm").slideUp("slow");
+                    }
+                });
+            });
+            function closeForm(){
+                $("#messageSent").show("slow");
+                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
+           }
+
+$(document).ready(function() {
+  function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+  }
+  $('a[href*=#]').each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+         $(this).click(function() {
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           var d = document.createElement("div");
+        d.style.height = "101%";
+        d.style.overflow = "hidden";
+        document.body.appendChild(d);
+        window.scrollTo(0,scrollToM);
+        setTimeout(function() {
+        d.parentNode.removeChild(d);
+            }, 10);
+           return false;
+         });
+      }
+    }
+  });
+});
+/*! Smooth Scroll - v1.4.5 - 2012-07-22
+* Copyright (c) 2012 Karl Swedberg; Licensed MIT, GPL */
+</script>
+    </body>
+</html>
+        

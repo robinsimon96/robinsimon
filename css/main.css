@@ -129,7 +129,8 @@ nav ul{
     padding: 0;
     margin: auto;
     padding: 4vh 0 0 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 nav ul li{
     display: inline-block;
@@ -209,8 +210,10 @@ h1{
 .case-studies{
     size
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    filter: brightness(100%);
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+    -webkit-filter: brightness(100%);
+            filter: brightness(100%);
     border: 2px white solid;
 }
 #work h3{
@@ -223,7 +226,8 @@ h1{
     background-size: contain;
     height: 400px;
     padding: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .jib:hover{
     background-image: url(../img/jib-hover.png);    
@@ -234,7 +238,8 @@ h1{
     background-size: contain;
     height: 400px;
     padding: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .delmar:hover{
     background-image: url(../img/delmar-hover.png);
@@ -245,7 +250,8 @@ h1{
     background-size: contain;
     height: 400px;
     padding: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .stella:hover{
     background-image: url(../img/stella-hover.png);
@@ -256,10 +262,14 @@ h1{
     background-size: contain;
     height: 400px;
     padding: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .bch:hover{
     background-image: url(../img/bch-hover.png);
+}
+.study-section{
+    margin-top: 300px;
 }
 .mlr{
     background-image: url(../img/mlr-plain.png);
@@ -267,7 +277,8 @@ h1{
     background-size: contain;
     height: 400px;
     padding: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .mlr:hover{
     background-image: url(../img/mlr-hover.png);
@@ -278,7 +289,8 @@ h1{
     background-size: contain;
     height: 400px;
     padding: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .character:hover{
     background-image: url(../img/character-hover.png);
@@ -289,7 +301,8 @@ h1{
     background-size: contain;
     height: 400px;
     padding: 5px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 
 }
 .motion:hover{
@@ -362,8 +375,10 @@ h4{
     z-index: 2;
 }
 .go-back p{
-    transform: rotate(90deg);
-    transform-origin: 0;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: 0;
+            transform-origin: 0;
     padding-bottom: 3vw;
     width: 1000px;
     font-size: 1vw;
@@ -474,8 +489,10 @@ h4{
     width: 5vw;
     }
     .go-back p{
-        transform: rotate(90deg);
-        transform-origin: 0;
+        -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+        -webkit-transform-origin: 0;
+                transform-origin: 0;
         padding-bottom: 4vw;
         width: 1000px;
         font-size: 2vw;
@@ -545,7 +562,8 @@ h4{
     height: 10vw;
     }
     .go-back p{
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
     padding: 3vw;
     font-size: 15px;
     }

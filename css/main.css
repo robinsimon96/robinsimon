@@ -295,6 +295,9 @@ h1{
 .motion:hover{
     background-image: url(../img/motion-hover.png);
 }
+.mlr-section{
+    padding-top: 60px;
+}
 input{
     height: 50px;
     float: left;

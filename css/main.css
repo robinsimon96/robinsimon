@@ -226,7 +226,7 @@ h1{
     box-sizing: border-box;
 }
 .jib:hover{
-    background-image: url(../img/jib-hover.png);    
+    background-image: url(../img/jib-hover.jpg);    
 }
 .delmar{
     background-image: url(../img/delmar-plain.png);
@@ -237,7 +237,7 @@ h1{
     box-sizing: border-box;
 }
 .delmar:hover{
-    background-image: url(../img/delmar-hover.png);
+    background-image: url(../img/delmar-hover.jpg);
 }
 .stella{
     background-image: url(../img/stella-plain.png);
@@ -248,7 +248,7 @@ h1{
     box-sizing: border-box;
 }
 .stella:hover{
-    background-image: url(../img/stella-hover.png);
+    background-image: url(../img/stella-hover.jpg);
 }
 .bch{
     background-image: url(../img/bch-plain.png);
@@ -259,7 +259,7 @@ h1{
     box-sizing: border-box;
 }
 .bch:hover{
-    background-image: url(../img/bch-hover.png);
+    background-image: url(../img/bch-hover.jpg);
 }
 .mlr{
     background-image: url(../img/mlr-plain.png);
@@ -270,7 +270,7 @@ h1{
     box-sizing: border-box;
 }
 .mlr:hover{
-    background-image: url(../img/mlr-hover.png);
+    background-image: url(../img/mlr-hover.jpg);
 }
 .character{
     background-image: url(../img/character-plain.png);
@@ -281,7 +281,7 @@ h1{
     box-sizing: border-box;
 }
 .character:hover{
-    background-image: url(../img/character-hover.png);
+    background-image: url(../img/character-hover.jpg);
 }
 .motion{
     background-image: url(../img/motion-plain.png);
@@ -293,7 +293,7 @@ h1{
 
 }
 .motion:hover{
-    background-image: url(../img/motion-hover.png);
+    background-image: url(../img/motion-hover.jpg);
 }
 .mlr-section, .bch-section{
     padding-top: 100px;
@@ -574,31 +574,31 @@ h4{
     }
     .jib{
         height: 200px;
-        background-image: url(../img/jib-hover.png);
+        background-image: url(../img/jib-hover.jpg);
     }
     .delmar{
         height: 200px;
-        background-image: url(../img/delmar-hover.png);
+        background-image: url(../img/delmar-hover.jpg);
     }
     .stella{
         height: 200px;
-        background-image: url(../img/stella-hover.png);
+        background-image: url(../img/stella-hover.jpg);
     }
     .bch{
         height: 200px;
-        background-image: url(../img/bch-hover.png);
+        background-image: url(../img/bch-hover.jpg);
     }
     .mlr{
         height: 200px;
-        background-image: url(../img/mlr-hover.png);
+        background-image: url(../img/mlr-hover.jpg);
     }
     .character{
         height: 200px;
-        background-image: url(../img/character-hover.png);
+        background-image: url(../img/character-hover.jpg);
     }
     .motion{
         height: 200px;
-        background-image: url(../img/motion-hover.png);
+        background-image: url(../img/motion-hover.jpg);
     }
     footer{
     height: 300px;

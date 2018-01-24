@@ -305,6 +305,19 @@ input{
 .radio{
     float: left;
 }
+#contact{
+    padding-top: 100px;
+    height: 50vh;
+}
+#download{
+    background-color: #02191e;
+    padding: 10px;
+    width: 180px;
+    border-radius: 5px;
+}
+#download:hover{
+    background-color: #face41;
+}
 footer{
     width: 100%;
     background-color: #02191e;
@@ -313,9 +326,6 @@ footer{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     height: 400px;
-}
-footer p{
-    line-height: 10px;
 }
 footer img{
     width: 15%;
@@ -534,6 +544,9 @@ h4{
 
 
 @media only screen and (min-width: 768px) and (max-width : 1200px){
+    #about{
+    height: 1200px;
+    }
     .case-study-page{
     padding: 5vw 5vw 5vw 7vw;
     }
@@ -570,7 +583,7 @@ h4{
 }
 @media only screen and (max-width : 767px) {
     #about{
-    height: 1200px;
+    height: 1300px;
     }
     .jib{
         height: 200px;
@@ -601,7 +614,7 @@ h4{
         background-image: url(../img/motion-hover.jpg);
     }
     footer{
-    height: 300px;
+    height: 400px;
     } 
 
 

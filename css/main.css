@@ -397,34 +397,23 @@ h4{
 
 
 
-#jib{
-    height: 100vh;
-}
-#vmas{
-    height: 100vh;
+#jib h3{
+    padding-top: 100px;
 }
 #vmas h3{
-    padding-top: 50px;
-}
-#blizzcon{
-    height: 100vh;
+    padding-top: 100px;
 }
 #blizzcon h3{
-    padding-top: 50px;
-}
-#chatbot{
-    height: 100vh;
+    padding-top: 100px;
 }
 #chatbot h3{
+    padding-top: 100px;   
+}
+#poker h3{
+    padding-top: 100px;   
 }
 .chatbot-gifs{
     float: right;
-}
-#poker{
-    height: 100vh;
-}
-#poker h3{
-    padding-top: 100px;
 }
 
 

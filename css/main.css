@@ -307,7 +307,7 @@ input{
 }
 #contact{
     padding-top: 100px;
-    height: 50vh;
+    height: 70vh;
 }
 #download{
     background-color: #02191e;
@@ -546,7 +546,7 @@ h4{
         background-image: url(../img/motion-hover.jpg);
     }
     footer{
-    height: 700px;
+    height: 400px;
     } 
 
 

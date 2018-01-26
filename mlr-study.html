@@ -36,54 +36,24 @@
             <img class="col-xs-12 col-md-4" src="img/mlr-3.png">
             <p class="clearfix caption">5 Frame Story</p>
 
-<!-- Slideshow container -->
-<div class="slideshow-container">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides ">
-    <div class="numbertext">1 / 5</div>
-    <img src="img/mlr-4.png" style="width:100%">
-    <div class="text">FRAME ONE</div>
-  </div>
+        <div class="mySlides1">
+        <img src="img/mlr-4.png" style="width:100%">
+        </div>
 
-  <div class="mySlides ">
-    <div class="numbertext">2 / 5</div>
-    <img src="img/mlr-5.png" style="width:100%">
-    <div class="text">FRAME TWO</div>
-  </div>
+        <div class="mySlides1">
+          <img src="img/mlr-5.png" style="width:100%">
+        </div>
 
-  <div class="mySlides ">
-    <div class="numbertext">3 / 5</div>
-    <img src="img/mlr-6.png" style="width:100%">
-    <div class="text">FRAME THREE</div>
-  </div>
+        <div class="mySlides1">
+          <img src="img/mlr-6.png" style="width:100%">
+        </div>
 
-  <div class="mySlides ">
-    <div class="numbertext">4 / 5</div>
-    <img src="img/mlr-7.png" style="width:100%">
-    <div class="text">FRAME FOUR</div>
-  </div>
-
-  <div class="mySlides ">
-    <div class="numbertext">5 / 5</div>
-    <img src="img/mlr-8.png" style="width:100%">
-    <div class="text">FRAME FIVE</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-
-
-
-            <img class="clearfix col-xs-12 col-md-2 col-md-push-1" src="img/mlr-4.png">
-            <img class="col-xs-12 col-md-2 col-md-push-1" src="img/mlr-5.png">
-            <img class="col-xs-12 col-md-2 col-md-push-1" src="img/mlr-6.png">
-            <img class="col-xs-12 col-md-2 col-md-push-1" src="img/mlr-7.png">
-            <img class="col-xs-12 col-md-2 col-md-push-1" src="img/mlr-8.png">
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
 
 
             <h3 class="clearfix mlr-section">Hunger</h3>
@@ -108,17 +78,22 @@
             <img class="col-xs-12 col-md-8" src="img/mlr-15.png">
 
             <h3 class="clearfix mlr-section">Miscellaneous</h3>
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-sm-12 col-lg-12">
                 <p class="description">Some other work with less background information, just plain fun!</p>
+            
+              <img class="col-xs-6 col-md-4" src="img/mlr-17.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-18.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-19.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-20.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-21.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-22.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-23.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-24.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-25.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-26.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-27.png">
+              <img class="col-xs-6 col-md-4" src="img/mlr-28.png">
             </div>
-            <img class="clearfix col-xs-6 col-md-4" src="img/mlr-16.png">
-            <img class="col-xs-6 col-md-4" src="img/mlr-17.png">
-            <img class="col-xs-6 col-md-4" src="img/mlr-18.png">
-            <img class="col-xs-6 col-md-4" src="img/mlr-19.png">
-            <img class="col-xs-6 col-md-4" src="img/mlr-20.png">
-            <img class="col-xs-6 col-md-4" src="img/mlr-21.png">
-            <br><br>
-
         </div>
 
         <footer class="clearfix">
@@ -138,33 +113,26 @@
             </div>
         </footer>
 
-<script>var slideIndex = 1;
-showSlides(slideIndex);
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides(n, no) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}</script>
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
     </body>
 </html>
